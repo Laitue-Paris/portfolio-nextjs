@@ -18,7 +18,7 @@ export const navItems = [
     // },
     {
       id: 1,
-      title: "Do you want to start a project together?",
+      title: "Envie de commencer un projet ensemble ?",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "",
@@ -72,36 +72,36 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      title: "Vegeshift - Application transformation végétale",
+      des: "Transforme tes recettes traditionnelles en version végétale. Powered avec OpenAI",
       img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      iconLists: ["/ra.svg", "/bo.svg", "/st.svg"],
+      link: "https://github.com/Babsmaddy/Vegeshift",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      title: "Lo Rey du Lac",
+      des: "Site avec système de réservation pour hébergements insolites",
       img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      iconLists: ["/wo.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       link: "https://github.com/adrianhajdin/zoom-clone",
     },
-    {
-      id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
-    },
-    {
-      id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
-    },
+    // {
+    //   id: 3,
+    //   title: "AI Image SaaS - Canva Application",
+    //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    //   img: "/p3.svg",
+    //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    //   link: "https://github.com/adrianhajdin/ai_saas_app",
+    // },
+    // {
+    //   id: 4,
+    //   title: "Animated Apple Iphone 3D Website",
+    //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    //   img: "/p4.svg",
+    //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    //   link: "https://github.com/adrianhajdin/iphone",
+    // },
   ];
   
   export const testimonials = [
@@ -110,7 +110,7 @@ export const navItems = [
     "Collaborer avec Xavier a été une expérience exceptionnelle. Son professionnalisme, sa rapidité et son souci du détail ont permis de mener notre projet à bien. Grâce à son expertise en développement, notre site web a atteint un tout autre niveau. Je le recommande vivement !",
   name: "Marie Dubois",
   title: "Responsable Marketing chez NovaCorp",
-  img: "/profile1.svg",
+  img: "/profile4.svg",
 },
 {
   quote:
@@ -131,7 +131,7 @@ export const navItems = [
     "Avec Xavier, nous avons eu un partenaire dévoué et passionné par son métier. Sa maîtrise des technologies de développement et son sens de la collaboration nous ont permis de mener notre projet au succès.",
   name: "Alexandre Lefèvre",
   title: "CTO de GreenFuture",
-  img: "/profile4.svg",
+  img: "/profile1.svg",
 },
 {
   quote:
@@ -152,9 +152,9 @@ export const navItems = [
     },
     {
       id: 2,
-      name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
+      name: "heroky",
+      img: "/heroku.svg",
+      nameImg: "/herokuName.svg",
     },
     {
       id: 3,
@@ -162,12 +162,12 @@ export const navItems = [
       img: "/host.svg",
       nameImg: "/hostName.svg",
     },
-    {
-      id: 4,
-      name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
-    },
+    // {
+    //   id: 4,
+    //   name: "stream",
+    //   img: "/s.svg",
+    //   nameImg: "/streamName.svg",
+    // },
     {
       id: 5,
       name: "docker.",
@@ -176,48 +176,50 @@ export const navItems = [
     },
   ];
   
-  export const workExperience = [
-    {
-      id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-      className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
-    },
-    {
-      id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
-    },
-    {
-      id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
-    },
-    {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
-    },
-  ];
+  // export const workExperience = [
+  //   {
+  //     id: 1,
+  //     title: "Frontend Engineer Intern",
+  //     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+  //     className: "md:col-span-2",
+  //     thumbnail: "/exp1.svg",
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "Mobile App Dev - JSM Tech",
+  //     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+  //     className: "md:col-span-2", // change to md:col-span-2
+  //     thumbnail: "/exp2.svg",
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "Freelance App Dev Project",
+  //     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+  //     className: "md:col-span-2", // change to md:col-span-2
+  //     thumbnail: "/exp3.svg",
+  //   },
+  //   {
+  //     id: 4,
+  //     title: "Lead Frontend Developer",
+  //     desc: "Developed and maintained user-facing features using modern frontend technologies.",
+  //     className: "md:col-span-2",
+  //     thumbnail: "/exp4.svg",
+  //   },
+  // ];
   
   export const socialMedia = [
     {
       id: 1,
       img: "/git.svg",
+      url: "https://github.com/Laitue-Paris"
     },
-    {
-      id: 2,
-      img: "/twit.svg",
-    },
+    // {
+    //   id: 2,
+    //   img: "/twit.svg",
+    // },
     {
       id: 3,
       img: "/link.svg",
+      url:"https://www.linkedin.com/in/xavier-bahegne-b1271a37/"
     },
   ];
